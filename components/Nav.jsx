@@ -7,7 +7,7 @@ import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 
 const Nav = () => {
   const {data:session} = useSession();
-  console.log(session);
+  // console.log(session);
   const [providers, setProviders] = useState(null);
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
@@ -18,6 +18,7 @@ const Nav = () => {
     };
     setUpProviders();
   }, []);
+  // console.log(providers);
   return (
     <nav className="flex-between w-full mb-16 pt-3">
       <Link href="/" className="flex gap-2 flex-center">

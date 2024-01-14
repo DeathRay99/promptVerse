@@ -12,6 +12,7 @@ const Home = () => {
       <p className="desc text-center">
       Welcome to promptVerse – an open-source AI prompting tool for modern creators. Discover, create, and share creative prompts effortlessly. Unleash your imagination with our AI-generated personalized prompts. Join a vibrant community, modify prompts, and collaborate worldwide. Privacy and inclusivity are our priorities. Welcome to boundless creativity!
       </p>
+      <Feed/>
       
     </section>
   );
